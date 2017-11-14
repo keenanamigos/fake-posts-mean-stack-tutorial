@@ -23,7 +23,7 @@ const port = process.env.port || "3000";
 app.set("port", port);
 
 // Create HTTP server
-const server = http.createClient(app);
+const server = http.createServer(app);
 
 // Listen on provided port, on all network interfaces
 server.listen(port, () => 
