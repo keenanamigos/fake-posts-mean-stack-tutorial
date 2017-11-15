@@ -7,6 +7,19 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 
+// Define the routes
+const ROUTES = [
+  {
+    path: '',
+    redirectTo: 'posts',
+    pathMath: 'full'
+  },
+  {
+    path: 'posts',
+    component: PostsComponent
+  }
+];
+
 @NgModule({
   declarations: [
     AppComponent,
