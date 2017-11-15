@@ -28,7 +28,8 @@ const ROUTES = [
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(ROUTES) // Add routes to the app
   ],
   providers: [],
   bootstrap: [AppComponent]
