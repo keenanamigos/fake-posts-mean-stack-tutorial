@@ -12,7 +12,7 @@ const ROUTES = [
   {
     path: '',
     redirectTo: 'posts',
-    pathMath: 'full'
+    pathMatch: 'full'
   },
   {
     path: 'posts',
