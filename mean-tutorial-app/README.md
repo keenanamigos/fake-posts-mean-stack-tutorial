@@ -1,4 +1,6 @@
 # MeanTutorialApp
+Tutorial Source: https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
+Goal of tutorial was to get more familiar with Angular + MEAN stack + Docker
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
